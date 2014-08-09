@@ -1,0 +1,5 @@
+Design a simple Account class for a Bank that:
+Accepts depositing and paying money
+Keeps track of the current balance, which can’t drop below 0.
+Balances aggregate over multiple transactions
+Supports depositing and paying money in different currencies. Conversion can be done using a ConversionService. Suggestion: mock the service
